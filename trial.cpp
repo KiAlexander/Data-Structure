@@ -1,39 +1,33 @@
 //#include<iostream>
 //#include<sstream>
-//#include"string"
+//#include<cassert>
 //using namespace std;
-//int getInt(string & a)
+//int main()
 //{
-//	for (unsigned int i = 0;i < a.length();i++)
-//	{
-//		char s = a[i];
-//		if (!(s >= '0'&&s <= '9' || 0 == i && ('+' == s || '-' == s)))
-//			throw a + " is not an int number.";
-//	}
-//	int n = atoi(a.c_str());
-//	stringstream p;
-//	p << n;
-//	if (a != p.str()) throw a + "out of range.";
-//	return n;
-//}
-//void main()
-//{
-//	string a, b;
-//	cout << "please input 2 int numbers:" << endl;
-//	try {
-//		cin >> a >> b;
-//		int n = getInt(a);
-//		int m = getInt(b);
-//		int k = n + m;
-//		if (k > 0 && n < 0 && m < 0 || k < 0 && n>0 && m>0) throw"over flow";
-//		cout << n << "+" << m << "=" << k << endl;
-//	}
-//	/*catch (char*s)
-//	{
-//		cout << "input error" << s << endl;
+//	/*cout<<"C++";
+//	if(1)
+//	{ 
+//		assert(1);
 //	}*/
-//	catch (string s)
-//	{
-//		cout << "input error" << s << endl;
-//	}
+//	string date="Independence Day: July 4,1776";
+//	istringstream istr(date);
+//	string word1,word2,month;
+//	int day,year;
+//	char comma;
+//	istr>>word1>>word2>>month>>day>>comma>>year;
+//	 cout<<"Contents of string  stream istr,one word per line:\n"
+//		<<word1<<endl<<word2<<endl<<month<<endl<<day<<comma<<endl<<year<<endl<<endl;
+//	date.append("it's a nice day");
+//	 cout<<date<<endl;
+//	string moto="live and learn";
+//	date.insert(2,moto);
+//	 cout<<date<<endl;
+//	date.erase(3,5);
+//	 cout<<date<<endl;
+//	date.replace(2,3,moto);
+//	 cout<<date<<endl;
+//	 date.erase(2);
+//		 cout<<date<<endl;
+//		 //date.assign(4,moto);
+//		 //cout<<date<<endl;
 //}
